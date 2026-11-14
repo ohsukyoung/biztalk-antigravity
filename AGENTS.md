@@ -130,16 +130,16 @@ Antigravity는 사용자와 개발을 진행할 때 아래 단계를 순차적�
   - [x] 폴더 구조(`backend`, `frontend`, `plan`) 생성
   - [x] `.gitignore` 갱신 (`.env`, `.venv`, `__pycache__` 등)
   - [x] `backend/requirements.txt` 작성 및 가상환경 세팅 및 검증 완료
-- [ ] **STEP 2. 백엔드 구현 (FastAPI + Upstage)**
-  - `schemas.py` 모델 정의
-  - `templates.py` 4대 페르소나 시스템 프롬프트 작성
-  - `tone_converter.py`에 Solar-Pro4 연동 로직 작성
-  - `convert.py` 라우터 및 `main.py` CORS/Static 설정
-  - 로컬 서버 구동 및 Swagger UI(`/docs`) 검증
-- [ ] **STEP 3. 프론트엔드 구현 (HTML/CSS/JS)**
-  - `index.html` 시맨틱 구조 작성
-  - `style.css` 비즈니스 룩앤필 디자인 적용
-  - `app.js` API 비동기 통신, 버튼 상태 토글, 복사 기능 구현
+- [x] **STEP 2. 백엔드 구현 (FastAPI + Upstage)**
+  - [x] `schemas.py` 모델 정의
+  - [x] `templates.py` 4대 페르소나 시스템 프롬프트 작성
+  - [x] `tone_converter.py`에 Solar-Pro4 연동 로직 작성
+  - [x] `convert.py` 라우터 및 `main.py` CORS/Static 설정
+  - [x] 로컬 서버 구동 및 Swagger UI(`/docs`) 검증 완료
+- [x] **STEP 3. 프론트엔드 구현 (HTML/CSS/JS)**
+  - [x] `index.html` 시맨틱 구조 작성
+  - [x] `style.css` 비즈니스 룩앤필 디자인 적용
+  - [x] `app.js` API 비동기 통신, 버튼 상태 토글, 복사 기능 구현
 - [ ] **STEP 4. 배포 준비 및 검증**
   - 프론트-백엔드 연동 종합 테스트
   - Vercel 배포 설정 (`vercel.json` 등 필요 시) 점검
