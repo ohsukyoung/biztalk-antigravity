@@ -140,10 +140,10 @@ Antigravity는 사용자와 개발을 진행할 때 아래 단계를 순차적�
   - [x] `index.html` 시맨틱 구조 작성
   - [x] `style.css` 비즈니스 룩앤필 디자인 적용
   - [x] `app.js` API 비동기 통신, 버튼 상태 토글, 복사 기능 구현
-- [ ] **STEP 4. 배포 준비 및 검증**
-  - 프론트-백엔드 연동 종합 테스트
-  - Vercel 배포 설정 (`vercel.json` 등 필요 시) 점검
-  - README / 문서 정리
+- [x] **STEP 4. 배포 준비 및 검증**
+  - [x] 프론트-백엔드 연동 종합 테스트 (로컬 & Playwright E2E 완료)
+  - [x] Vercel 배포 설정 (`vercel.json` 프론트/백엔드 통합 라우팅)
+  - [x] README / 문서 정리 및 GitHub 푸시 (`origin/main`) 완료
 
 ---
 

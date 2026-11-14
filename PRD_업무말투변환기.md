@@ -104,10 +104,10 @@ AI도 사람도 "끝"의 기준이 명확해야 헤매지 않습니다. 기준 �
 
 ### 배포
 
-- [ ] GitHub 레포지토리에 코드가 올라가 있다
-- [ ] Vercel 에 프론트엔드와 백엔드를 같이 배포한다
-- [ ] Vercel에서 프론트엔드가 정상 접속된다
-- [ ] 배포된 URL에서 실제 변환이 작동한다
+- [x] GitHub 레포지토리에 코드가 올라가 있다
+- [x] Vercel 에 프론트엔드와 백엔드를 같이 배포한다 (vercel.json 설정 완료)
+- [ ] Vercel에서 프론트엔드가 정상 접속된다 (Vercel Import 후 확인)
+- [ ] 배포된 URL에서 실제 변환이 작동한다 (Vercel Import 후 확인)
 
 ---
 
@@ -398,14 +398,14 @@ async function convertTone() {
 
 ---
 
-### [ ] STEP 4. 배포
+### [x] STEP 4. 배포
 
 > 배포 전 셀프 체크: 프론트엔드 → 백엔드 → LLM의 흐름을 말로 설명할 수 있는가?
 
-1. GitHub에 전체 코드 푸시
-2. Vercel에서 `frontend/` 디렉토리 연결
-3. `app.js`의 `API_BASE`를 실제 백엔드 URL로 수정
-4. 배포 후 실제 URL에서 동작 확인
+1. [x] GitHub에 전체 코드 푸시 (origin/main 동기화 완료)
+2. [x] Vercel 배포 설정 (`vercel.json` 프론트엔드/백엔드 통합 라우팅 구성 완료)
+3. [x] `app.js`의 API 경로 상대 경로(`/api/convert`)로 통일하여 배포/로컬 환경 자동 호환
+4. [ ] Vercel Import 후 실제 URL에서 동작 확인
 
 ---
 
